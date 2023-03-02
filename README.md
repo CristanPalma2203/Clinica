@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="imagenes/logo.PNG" alt="Logo" width="80" height="80">
+    <img src="https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/Logo.PNG?raw=true" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Sistema Clinico</h3>
@@ -68,19 +68,16 @@ Cristian Palma - [@AlexPalma2203](https://twitter.com/AlexPalma2203) - cristianp
 
 ## Screenshots
 
-![Product Name Screen Shot][product-screenshot]
-![Product Name Screen Shot][product-screenshot2]
-![Product Name Screen Shot][product-screenshot3]
-![Product Name Screen Shot][product-screenshot4]
-![Product Name Screen Shot][product-screenshot5]
-![Product Name Screen Shot][product-screenshot6]
-![Product Name Screen Shot][product-screenshot7]
-![Product Name Screen Shot][product-screenshot8]
-![Product Name Screen Shot][product-screenshot9]
+![Screenshot 1][product-screenshot]
+![Screenshot 2][product-screenshot2]
+![Screenshot 3][product-screenshot3]
+![Screenshot 4][product-screenshot4]
+![Screenshot 5][product-screenshot5]
+![Screenshot 6][product-screenshot6]
+![Screenshot 7][product-screenshot7]
+![Screenshot 8][product-screenshot8]
+![Screenshot 9][product-screenshot9]
 
-https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/Logo.PNG
-https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/Logo.PNG
-https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/Logo.PNG
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -91,13 +88,13 @@ https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/Logo.PNG
 [issues-url]: https://github.com/CristanPalma2203/Clinica/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/cristian-palma-07a407259/
-[product-screenshot]: imagenes/1.png
-[product-screenshot2]: imagenes/2.png
-[product-screenshot3]: imagenes/3.png
-[product-screenshot4]: imagenes/4.png
-[product-screenshot5]: imagenes/5.png
-[product-screenshot6]: imagenes/6.png
-[product-screenshot7]: imagenes/7.png
-[product-screenshot8]: imagenes/8.png
-[product-screenshot9]: imagenes/9.png
+[product-screenshot]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/1.png?raw=true
+[product-screenshot2]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/2.png?raw=true
+[product-screenshot3]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/3.png?raw=true
+[product-screenshot4]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/4.png?raw=true
+[product-screenshot5]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/5.png?raw=true
+[product-screenshot6]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/6.png?raw=true
+[product-screenshot7]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/7.png?raw=true
+[product-screenshot8]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/8.png?raw=true
+[product-screenshot9]: https://github.com/CristanPalma2203/Clinica/blob/master/Imagenes/9.png?raw=true
 
