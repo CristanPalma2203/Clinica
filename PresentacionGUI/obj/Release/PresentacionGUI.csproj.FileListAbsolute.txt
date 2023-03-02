@@ -1,0 +1,6 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.Contenedor.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.Login.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Release\PresentacionGUI.csproj.CoreCompileInputs.cache

@@ -1,0 +1,327 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Clock.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\GUI_Clinica.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.FormBienvenida.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\bdr.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.Licensing.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoadingForm.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.manifest
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.application
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe.manifest
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.application
+C:\Users\Alex Palma\Desktop\Utec\Ciclo 01-20\Cristian\Programacion I\Proyecto Programacion Ciclo 01-2020\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe
+C:\Users\Alex Palma\Desktop\Utec\Ciclo 01-20\Cristian\Programacion I\Proyecto Programacion Ciclo 01-2020\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.TrustInfo.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.config
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.manifest
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.application
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\bdr.exe
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.Licensing.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoadingForm.resources
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.GenerateResource.cache
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CoreCompileInputs.cache
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.TrustInfo.xml
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe.manifest
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.application
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CopyComplete
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.pdb
+D:\Utec\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.config
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe.manifest
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.application
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.exe
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Sistema Clinico.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\bdr.exe
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.Licensing.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.AssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoadingForm.resources
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.TrustInfo.xml
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe.manifest
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.application
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\GUI_Clinica.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe
+C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\PresentacionGUI\obj\Debug\Sistema Clinico.pdb

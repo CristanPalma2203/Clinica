@@ -1,0 +1,137 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Login.resources
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Login.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Login.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Login.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormBienvenida.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Clock.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Clock.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Login.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Login.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Login.exe.config
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormBienvenida.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.FormBienvenida.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.FormPrincipal.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.LoginForm.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CircularProgressBar.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Clock.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Tavant.XToolkit.MultiTabPage.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Tavant.XToolkit.RoundedCornerView.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\WinFormAnimation.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\CircularProgressBar.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete

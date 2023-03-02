@@ -1,0 +1,11 @@
+(Ingeniera)
+Usuario:Veronica
+Contraseña: 123
+
+(Doctor)
+Usuario: Pablo
+Contraseña: Pablo8
+
+(Enfermera)
+Usuario: Rubi 
+Contraeña: Rubi9

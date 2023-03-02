@@ -1,0 +1,10 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\bin\Release\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\bin\Release\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\bin\Release\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\bin\Release\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\bin\Release\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\obj\Release\Dominio.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\obj\Release\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\obj\Release\Dominio.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\obj\Release\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\Dominio\obj\Release\Dominio.pdb

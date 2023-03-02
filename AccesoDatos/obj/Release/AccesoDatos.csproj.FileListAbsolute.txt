@@ -1,0 +1,8 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\bin\Release\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\obj\Release\AccesoDatos.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\obj\Release\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\obj\Release\AccesoDatos.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\AccesoDatos\obj\Release\AccesoDatos.pdb

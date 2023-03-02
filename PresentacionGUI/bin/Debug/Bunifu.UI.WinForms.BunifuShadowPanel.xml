@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bunifu.UI.WinForms.BunifuShadowPanel</name>
+    </assembly>
+    <members>
+        <member name="T:Bunifu.UI.WinForms.BunifuShadowPanel">
+            <summary>
+            Provides a snappy and improved panel with shadowed borders.
+            </summary>
+        </member>
+        <member name="M:Bunifu.UI.WinForms.BunifuShadowPanel.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:Bunifu.UI.WinForms.BunifuShadowPanel"/>.
+            </summary>
+        </member>
+        <member name="P:Bunifu.UI.WinForms.BunifuShadowPanel.PanelColor">
+            <summary>
+            Gets or sets the panel's color.
+            </summary>
+        </member>
+        <member name="P:Bunifu.UI.WinForms.BunifuShadowPanel.BorderColor">
+            <summary>
+            Gets or sets the panel's border color.
+            </summary>
+        </member>
+        <member name="P:Bunifu.UI.WinForms.BunifuShadowPanel.ShadowTopLeftVisible">
+            <summary>
+            Gets or sets a value indicating whether 
+            the top-left shadow will be visible.
+            </summary>
+        </member>
+        <member name="P:Bunifu.UI.WinForms.BunifuShadowPanel.ShadowDepth">
+            <summary>
+            Gets or sets the panel's shadow depth.
+            </summary>
+        </member>
+        <member name="P:Bunifu.UI.WinForms.BunifuShadowPanel.ShadowDept">
+            <summary>
+            Gets the shadow dept.
+            </summary>
+            <value>
+            The shadow dept.
+            </value>
+        </member>
+    </members>
+</doc>

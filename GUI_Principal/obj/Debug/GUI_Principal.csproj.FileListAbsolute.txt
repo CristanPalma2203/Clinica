@@ -1,0 +1,87 @@
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Contenedor.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Contenedor.resources
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\Ciclo 01-20\Cristian\Programacion I\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Administrador.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Paciente.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Registros.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.FrmExpediente.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.ActualizarExp.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.FrmCrearExpediente.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.ActualizarExp.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Administrador.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.FrmCrearExpediente.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.FrmExpediente.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Registros.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Contenedor.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Paciente.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\BAckup\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Programadores.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica\GUI_Principal\obj\Debug\GUI_Principal.Citas.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\GUI_Principal.exe.config
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\GUI_Principal.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\CapaComun.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\Dominio.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\AccesoDatos.dll
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\CapaComun.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\Dominio.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\bin\Debug\AccesoDatos.pdb
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.csprojAssemblyReference.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.ActualizarExp.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Administrador.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Citas.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.FrmCrearExpediente.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.FrmExpediente.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Programadores.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Registros.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Paciente.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.Properties.Resources.resources
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.csproj.GenerateResource.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.csproj.CoreCompileInputs.cache
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.csproj.CopyComplete
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.exe
+C:\Users\Alex Palma\Desktop\ProyectoClinica - copia\GUI_Principal\obj\Debug\GUI_Principal.pdb
