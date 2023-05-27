@@ -46,3 +46,18 @@ C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\Dominio\obj\Debug\Domi
 C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\Dominio\obj\Debug\Dominio.csproj.CopyComplete
 C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\Dominio\obj\Debug\Dominio.dll
 C:\Users\Alex Palma\Desktop\Proyectos Git\ProyectoClinica\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\Dominio.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\AccesoDatos.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\CapaComun.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\AccesoDatos.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\CapaComun.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\obj\Debug\Dominio.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\itextsharp.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\itextsharp.xml

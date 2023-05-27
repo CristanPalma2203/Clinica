@@ -10,3 +10,13 @@ D:\Utec\ProyectoClinica\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.c
 D:\Utec\ProyectoClinica\CapaComun\obj\Debug\CapaComun.dll
 D:\Utec\ProyectoClinica\CapaComun\obj\Debug\CapaComun.pdb
 D:\Utec\ProyectoClinica\CapaComun\obj\Debug\CapaComun.csproj.AssemblyReference.cache
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\bin\Debug\CapaComun.dll
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\bin\Debug\CapaComun.pdb
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\bin\Debug\itextsharp.dll
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\bin\Debug\itextsharp.xml
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\obj\Debug\CapaComun.csproj.AssemblyReference.cache
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.cache
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\obj\Debug\CapaComun.csproj.CopyComplete
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\obj\Debug\CapaComun.dll
+C:\Users\Billy Mejia\Desktop\Clinica\CapaComun\obj\Debug\CapaComun.pdb

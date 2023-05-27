@@ -414,7 +414,7 @@
             this.lblFecha.ForeColor = System.Drawing.Color.Silver;
             this.lblFecha.Location = new System.Drawing.Point(204, 405);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(518, 44);
+            this.lblFecha.Size = new System.Drawing.Size(517, 44);
             this.lblFecha.TabIndex = 2;
             this.lblFecha.Text = "jueves, 14 de mayo de 2020";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

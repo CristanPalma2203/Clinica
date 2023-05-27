@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Sistema Clinico.exe.manifest" size="34138">
+    <dependentAssembly dependencyType="install" codebase="Sistema Clinico.exe.manifest" size="35476">
       <assemblyIdentity name="Sistema Clinico.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cgbP+IIYfsyaARRefX0zxB7CGDOn8e3SYDbL6XLk8BY=</dsig:DigestValue>
+        <dsig:DigestValue>CffNfcvCljoGIL/6A3geVPigo1xjt+eNVD0IRyj+QeU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

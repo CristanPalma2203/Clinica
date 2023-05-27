@@ -156,8 +156,7 @@ namespace PresentacionGUI
         private void Registros_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Color.FromArgb(84, 177, 248));
-            AbrirFormularioHijo(new Citas());
-            
+            AbrirFormularioHijo(new Citas());            
 
         }
 
@@ -172,8 +171,13 @@ namespace PresentacionGUI
             ActivateButton(sender, Color.FromArgb(95, 77, 221));
             AbrirFormularioHijo(new Programadores());
         }
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, Color.FromArgb(95, 77, 221));
+            AbrirFormularioHijo(new Reportes());
 
-        
+            Reportes reportes = new Reportes();
+        }
 
         private void Reset()
         {
@@ -267,5 +271,6 @@ namespace PresentacionGUI
         {
 
         }
+        
     }
 }
