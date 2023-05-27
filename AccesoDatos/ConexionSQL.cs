@@ -14,7 +14,7 @@ namespace AccesoDatos
         public ConexionSQL()
         {
             //CadenaConexion = "Server=DESKTOP-G30J10N;DataBase=SistemaClinico; integrated security = true";
-            CadenaConexion = "Server=DESKTOP-DPIMUO0;DataBase=SistemaClinico; integrated security = true";
+            CadenaConexion = "Server=DESKTOP-NOE5NKV;DataBase=SistemaClinico; integrated security = true";
         }
         protected SqlConnection GetConnection()
         {

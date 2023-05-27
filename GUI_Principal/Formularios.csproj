@@ -126,12 +126,18 @@
     <Reference Include="FontAwesome.Sharp, Version=5.12.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.5.12.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -217,12 +223,6 @@
       <DependentUpon>Paciente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Fomularios Menu\Programadores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Fomularios Menu\Programadores.Designer.cs">
-      <DependentUpon>Programadores.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -253,9 +253,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios Acciones\NuevaConsulta.resx">
       <DependentUpon>NuevaConsulta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fomularios Menu\Programadores.resx">
-      <DependentUpon>Programadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fomularios Menu\Citas.resx">
       <DependentUpon>Citas.cs</DependentUpon>

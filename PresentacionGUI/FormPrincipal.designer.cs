@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.Menu = new System.Windows.Forms.Panel();
             this.Salir = new FontAwesome.Sharp.IconButton();
-            this.Programadores = new FontAwesome.Sharp.IconButton();
             this.Reportes = new FontAwesome.Sharp.IconButton();
             this.Registros = new FontAwesome.Sharp.IconButton();
             this.Paciente = new FontAwesome.Sharp.IconButton();
@@ -71,7 +70,6 @@
             // 
             this.Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(16)))), ((int)(((byte)(31)))));
             this.Menu.Controls.Add(this.Salir);
-            this.Menu.Controls.Add(this.Programadores);
             this.Menu.Controls.Add(this.Reportes);
             this.Menu.Controls.Add(this.Registros);
             this.Menu.Controls.Add(this.Paciente);
@@ -109,35 +107,6 @@
             this.Salir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Salir.UseVisualStyleBackColor = false;
             this.Salir.Click += new System.EventHandler(this.Salir_Click);
-            // 
-            // Programadores
-            // 
-            this.Programadores.BackColor = System.Drawing.Color.Transparent;
-            this.Programadores.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Programadores.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Programadores.FlatAppearance.BorderSize = 0;
-            this.Programadores.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.Programadores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(21)))));
-            this.Programadores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(21)))));
-            this.Programadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Programadores.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.Programadores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Programadores.ForeColor = System.Drawing.Color.Gainsboro;
-            this.Programadores.IconChar = FontAwesome.Sharp.IconChar.UserAstronaut;
-            this.Programadores.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(44)))), ((int)(((byte)(86)))));
-            this.Programadores.IconSize = 50;
-            this.Programadores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Programadores.Location = new System.Drawing.Point(0, 342);
-            this.Programadores.Name = "Programadores";
-            this.Programadores.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.Programadores.Rotation = 0D;
-            this.Programadores.Size = new System.Drawing.Size(200, 60);
-            this.Programadores.TabIndex = 4;
-            this.Programadores.Text = "Programadores";
-            this.Programadores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Programadores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Programadores.UseVisualStyleBackColor = false;
-            this.Programadores.Click += new System.EventHandler(this.Programadores_Click);
             // 
             // Reportes
             // 
@@ -492,7 +461,6 @@
         private new FontAwesome.Sharp.IconPictureBox Close;
         private FontAwesome.Sharp.IconPictureBox Minimizar;
         private FontAwesome.Sharp.IconButton Paciente;
-        private FontAwesome.Sharp.IconButton Programadores;
         private FontAwesome.Sharp.IconButton Reportes;
         private FontAwesome.Sharp.IconButton Registros;
         private FontAwesome.Sharp.IconPictureBox iconFormularioActual;

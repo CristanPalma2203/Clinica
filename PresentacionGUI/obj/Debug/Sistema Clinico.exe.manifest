@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Tr62rCAV25cfjxtH0zunGLnDhR0CD/d2UgNSrg7m/ls=</dsig:DigestValue>
+        <dsig:DigestValue>VxUuK5EtYBHJJmhLVNENDQraAjb89WHFqKvmh3euxYE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -422,7 +422,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eziTK0Q8E+6xOfxNnLCTVBujBuGSWbQqzM/7zu490A4=</dsig:DigestValue>
+        <dsig:DigestValue>hT4mYu4ayIRhd6c0eDff0+keeAOXR573u0agyaxvbG0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -446,7 +446,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iwq2hn6I3hDZdQFkY7JyvIehLeVB94jP0eGBrpUA1Ws=</dsig:DigestValue>
+        <dsig:DigestValue>J9FbMFIC3QVSs3OFS4kYb6zXf7gDrcKJzJUQrQYedak=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -463,14 +463,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI_Principal.exe" size="1138176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI_Principal.exe" size="410112">
       <assemblyIdentity name="GUI_Principal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DAWZDpcI4PkXLK+RyfgEm9GpykBFgO2X6TToMGuMqJw=</dsig:DigestValue>
+        <dsig:DigestValue>JTjg6yB0Q9qUn68gBlvajO545iG0dQK0ljbLtfTXn7Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2034056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.4" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z0I6RH5cHci8C4TvAF4ulC+hSbpPnK9+LxL2csrVU4U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -487,14 +499,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema Clinico.exe" size="155136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema Clinico.exe" size="154624">
       <assemblyIdentity name="Sistema Clinico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VwB8ZUH0P0RvsjqJs6bg8DyQpiMmIIe8O0+H034boeQ=</dsig:DigestValue>
+        <dsig:DigestValue>RP2deb3RMRdz7JgNWA7qy7wCpJOUeQhptphtp0ALPPY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

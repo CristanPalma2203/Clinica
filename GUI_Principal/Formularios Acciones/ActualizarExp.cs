@@ -46,9 +46,9 @@ namespace GUI_Principal
             txtMes.Text = Convert.ToString(mes);
             txtAño.Text = Convert.ToString(año);
             TxtNumero.Text = Convert.ToString(CachePaciente.TelefonoPaciente);
-            CboSexo.SelectedItem = CachePaciente.SexoPaciente;
-            CboEstadoCivil.SelectedItem = CachePaciente.EstadoCivilPaciente;
-            CboTipoSangre.SelectedItem = CacheExpediente.TipoSangre;
+            gunaCmbSexo.SelectedItem = CachePaciente.SexoPaciente;
+            gunaEstadoCivil.SelectedItem = CachePaciente.EstadoCivilPaciente;
+            GunaTypeSan.SelectedItem = CacheExpediente.TipoSangre;
             RtbDireccion.Text = CachePaciente.DirrecionPaciente;
             rtbAntecedentes.Text = CacheExpediente.AntecedentesClinicos;
             rtbMedicamentos.Text = CacheExpediente.MedicamentosPreEscritos;
@@ -68,13 +68,13 @@ namespace GUI_Principal
                 ModeloPaciente actPaciente = new ModeloPaciente(dui: CachePaciente.Dui,
                antecedentes: rtbAntecedentes.Text,
                medicamentos: rtbMedicamentos.Text,
-               tipoSangre: Convert.ToString(CboTipoSangre.SelectedItem),
+               tipoSangre: Convert.ToString(GunaTypeSan.SelectedItem),
                nombreP: TxtNombre.Text,
                apellidosP: TxtApellido.Text,
-               sexoP: Convert.ToString(CboSexo.SelectedItem),
+               sexoP: Convert.ToString(gunaCmbSexo.SelectedItem),
                numeroTeleP: Convert.ToInt32(TxtNumero.Text),
                direccionP: RtbDireccion.Text,
-               estadoCivilP: Convert.ToString(CboEstadoCivil.SelectedItem),
+               estadoCivilP: Convert.ToString(gunaEstadoCivil.SelectedItem),
                fechaNaciemientoP: fecha);
                 var resultado = actPaciente.ActualizarExpediente();
                 MessageBox.Show(resultado);
@@ -102,5 +102,7 @@ namespace GUI_Principal
         {
             Reiniciar();
         }
+
+    
     }
 }

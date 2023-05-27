@@ -1,5 +1,7 @@
 ﻿using Dominio;
 using System;
+
+
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,11 +15,13 @@ using CapaComun.Cache;
 using AccesoDatos;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Data.SqlClient;
+using Guna.UI2.WinForms;
 
 namespace GUI_Principal
 {
     public partial class Reportes : Form
     {
+  
         private readonly ReportesD reportesD = new ReportesD();
 
         public Reportes()
@@ -32,9 +36,9 @@ namespace GUI_Principal
             //}
 
             List<string> tablas = reportesD.Tablas();
-                        
-            cbxReportes.Items.Clear();
-            cbxReportes.Items.AddRange(tablas.ToArray());
+
+            guna2ComboBox1.Items.Clear();
+            guna2ComboBox1.Items.AddRange(tablas.ToArray());
             
         }
       
@@ -54,9 +58,9 @@ namespace GUI_Principal
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
-            if (cbxReportes.SelectedIndex != -1)
+            if (guna2ComboBox1.SelectedIndex != -1)
             {
-                string opcion = cbxReportes.SelectedItem.ToString();
+                string opcion = guna2ComboBox1.SelectedItem.ToString();
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
@@ -72,6 +76,16 @@ namespace GUI_Principal
             {
                 MessageBox.Show("Por favor, selecciona una opción del ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbxReportes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -26,14 +26,14 @@ namespace GUI_Principal
                 ModeloPaciente createPaciente = new ModeloPaciente(dui: Convert.ToInt32(TxtDui.Text),
               nombreP: TxtNombre.Text,
               apellidosP: TxtApellido.Text,
-              sexoP: Convert.ToString(CboSexo.SelectedItem),
+              sexoP: Convert.ToString(guna2ComboBox1.SelectedItem),
               numeroTeleP: Convert.ToInt32(TxtNumero.Text),
               direccionP: RtbDireccion.Text,
-              estadoCivilP: Convert.ToString(CboEstadoCivil.SelectedItem),
+              estadoCivilP: Convert.ToString(gunaEstadoC.SelectedItem),
               fechaNaciemientoP: fecha,
               antecedentes: rtbAntecedentes.Text,
               medicamentos: rtbMedicamentos.Text,
-              tipoSangre: Convert.ToString(CboTipoSangre.SelectedItem)
+              tipoSangre: Convert.ToString(GunaTypeSan.SelectedItem)
 
 
               );
@@ -63,14 +63,14 @@ namespace GUI_Principal
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CboTipoSangre.Items.Add("O -");
-            CboTipoSangre.Items.Add("O +");
-            CboTipoSangre.Items.Add("A -");
-            CboTipoSangre.Items.Add("A +");
-            CboTipoSangre.Items.Add("B -");
-            CboTipoSangre.Items.Add("B +");
-            CboTipoSangre.Items.Add("AB -");
-            CboTipoSangre.Items.Add("AB +");
+            GunaTypeSan.Items.Add("O -");
+            GunaTypeSan.Items.Add("O +");
+            GunaTypeSan.Items.Add("A -");
+            GunaTypeSan.Items.Add("A +");
+            GunaTypeSan.Items.Add("B -");
+            GunaTypeSan.Items.Add("B +");
+            GunaTypeSan.Items.Add("AB -");
+            GunaTypeSan.Items.Add("AB +");
         }
 
         private void CboSexo_SelectedIndexChanged(object sender, EventArgs e)
@@ -95,25 +95,27 @@ namespace GUI_Principal
             txtDia.Clear();
             txtMes.Clear();
             txtAño.Clear();
-            CboSexo.Items.Clear();
-            CboSexo.Items.Add("F");
-            CboSexo.Items.Add("M");
+            guna2ComboBox1.Items.Clear();
+            guna2ComboBox1.Items.Add("F");
+            guna2ComboBox1.Items.Add("M");
+    
 
-            CboEstadoCivil.Items.Clear();
-            CboEstadoCivil.Items.Add("Soltero");
-            CboEstadoCivil.Items.Add("Casado");
-            CboEstadoCivil.Items.Add("Divorsiado");
-            CboEstadoCivil.Items.Add("Viudo");
+            gunaEstadoC.Items.Clear();
+            gunaEstadoC.Items.Add("Soltero");
+            gunaEstadoC.Items.Add("Casado");
+            gunaEstadoC.Items.Add("Divorsiado");
+            gunaEstadoC.Items.Add("Viudo");
 
-            CboTipoSangre.Items.Clear();
-            CboTipoSangre.Items.Add("O -");
-            CboTipoSangre.Items.Add("O +");
-            CboTipoSangre.Items.Add("A -");
-            CboTipoSangre.Items.Add("A +");
-            CboTipoSangre.Items.Add("B -");
-            CboTipoSangre.Items.Add("B +");
-            CboTipoSangre.Items.Add("AB -");
-            CboTipoSangre.Items.Add("AB +");
+            GunaTypeSan.Items.Clear();
+            GunaTypeSan.Items.Add("O -");
+            GunaTypeSan.Items.Add("O +");
+            GunaTypeSan.Items.Add("A -");
+            GunaTypeSan.Items.Add("A +");
+            GunaTypeSan.Items.Add("B -");
+            GunaTypeSan.Items.Add("B +");
+            GunaTypeSan.Items.Add("AB -");
+            GunaTypeSan.Items.Add("AB +");
         }
+
     }
 }

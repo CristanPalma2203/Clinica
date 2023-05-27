@@ -26,7 +26,7 @@ namespace PresentacionGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label6.Text = "Programa Creado el 14 de Mayo de 2020,\nPara El Registro Clinico, Desarrollado Por un \nEquipo de 7 Programadores de La Universidad\nTecnologica de El Salvador,Con el Proposito de\nActualizar los Metodos Poco Comunes Utilizados \nEn La Clinica Marselo Ubicada En Soyapango.";
+            label6.Text = "Programa Creado el 27 de Mayo de 2023,\nPara El Registro Clinico, Desarrollado Por un \nEquipo de 5 Programadores de La Universidad\nTecnologica de El Salvador,Con el Proposito de\nActualizar los Metodos Poco Comunes Utilizados \nEn La Buena Vida Ubicada En Soyapango.";
         }
         
         private void Usuario_Enter(object sender, EventArgs e)

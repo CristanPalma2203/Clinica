@@ -33,7 +33,7 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.PanelPaciente = new System.Windows.Forms.Panel();
-            this.cbxReportes = new System.Windows.Forms.ComboBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnGenerar = new System.Windows.Forms.Button();
             this.ChartBar = new FontAwesome.Sharp.IconPictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             // PanelPaciente
             // 
             this.PanelPaciente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(37)))));
-            this.PanelPaciente.Controls.Add(this.cbxReportes);
+            this.PanelPaciente.Controls.Add(this.guna2ComboBox1);
             this.PanelPaciente.Controls.Add(this.btnGenerar);
             this.PanelPaciente.Controls.Add(this.ChartBar);
             this.PanelPaciente.Controls.Add(this.label1);
@@ -73,20 +73,41 @@
             this.PanelPaciente.Size = new System.Drawing.Size(905, 448);
             this.PanelPaciente.TabIndex = 24;
             // 
-            // cbxReportes
+            // guna2ComboBox1
             // 
-            this.cbxReportes.FormattingEnabled = true;
-            this.cbxReportes.Location = new System.Drawing.Point(630, 29);
-            this.cbxReportes.Name = "cbxReportes";
-            this.cbxReportes.Size = new System.Drawing.Size(121, 21);
-            this.cbxReportes.TabIndex = 31;
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(121)))), ((int)(((byte)(230)))));
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(155)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.Empty;
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Century Gothic", 9.25F, System.Drawing.FontStyle.Bold);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2ComboBox1.FormattingEnabled = true;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Usuario",
+            "Paciente",
+            "Expendiente",
+            "Diagnostico",
+            "Citas",
+            "Movimientos"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(647, 29);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(135, 36);
+            this.guna2ComboBox1.TabIndex = 32;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(749, 28);
+            this.btnGenerar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(121)))), ((int)(((byte)(230)))));
+            this.btnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGenerar.Font = new System.Drawing.Font("Century Gothic", 9.25F, System.Drawing.FontStyle.Bold);
+            this.btnGenerar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(121)))), ((int)(((byte)(230)))));
+            this.btnGenerar.Location = new System.Drawing.Point(788, 31);
             this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(75, 23);
-            this.btnGenerar.TabIndex = 30;
+            this.btnGenerar.Size = new System.Drawing.Size(85, 34);
+            this.btnGenerar.TabIndex = 13;
             this.btnGenerar.Text = "Generar";
             this.btnGenerar.UseVisualStyleBackColor = true;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
@@ -288,6 +309,6 @@
         private FontAwesome.Sharp.IconPictureBox iconMonto;
         private FontAwesome.Sharp.IconPictureBox iconCitas;
         private System.Windows.Forms.Button btnGenerar;
-        private System.Windows.Forms.ComboBox cbxReportes;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
     }
 }

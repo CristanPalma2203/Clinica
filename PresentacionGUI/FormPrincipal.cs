@@ -50,14 +50,13 @@ namespace PresentacionGUI
                 iconUsers.IconChar = FontAwesome.Sharp.IconChar.UserNurse;
                 Reportes.Enabled = false;
            
-                Programadores.Enabled = false;
+          
 
             }
             if (CacheDeUsuario.CargoUsuario == Cargos.Doctor)
             {
                 iconUsers.IconChar = FontAwesome.Sharp.IconChar.UserMd;
-               
-                Programadores.Enabled = false;
+           
             }
             if (CacheDeUsuario.CargoUsuario == Cargos.Ingeniera)
             {
@@ -166,11 +165,7 @@ namespace PresentacionGUI
             AbrirFormularioHijo(new Reportes());
         }
 
-        private void Programadores_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Color.FromArgb(95, 77, 221));
-            AbrirFormularioHijo(new Programadores());
-        }
+   
         private void btnReportes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Color.FromArgb(95, 77, 221));

@@ -132,7 +132,7 @@
             this.lblReportes.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblReportes.Location = new System.Drawing.Point(13, 194);
             this.lblReportes.Name = "lblReportes";
-            this.lblReportes.Size = new System.Drawing.Size(219, 16);
+            this.lblReportes.Size = new System.Drawing.Size(218, 16);
             this.lblReportes.TabIndex = 18;
             this.lblReportes.Text = "Bienvenido A Nuestro Programa ";
             // 
@@ -175,7 +175,7 @@
             this.lblCitas.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblCitas.Location = new System.Drawing.Point(17, 194);
             this.lblCitas.Name = "lblCitas";
-            this.lblCitas.Size = new System.Drawing.Size(219, 16);
+            this.lblCitas.Size = new System.Drawing.Size(218, 16);
             this.lblCitas.TabIndex = 17;
             this.lblCitas.Text = "Bienvenido A Nuestro Programa ";
             // 
@@ -219,7 +219,7 @@
             this.lblPaciente.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblPaciente.Location = new System.Drawing.Point(18, 194);
             this.lblPaciente.Name = "lblPaciente";
-            this.lblPaciente.Size = new System.Drawing.Size(219, 16);
+            this.lblPaciente.Size = new System.Drawing.Size(218, 16);
             this.lblPaciente.TabIndex = 16;
             this.lblPaciente.Text = "Bienvenido A Nuestro Programa ";
             // 
@@ -272,7 +272,7 @@
             this.lblProgramadores.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblProgramadores.Location = new System.Drawing.Point(17, 194);
             this.lblProgramadores.Name = "lblProgramadores";
-            this.lblProgramadores.Size = new System.Drawing.Size(219, 16);
+            this.lblProgramadores.Size = new System.Drawing.Size(218, 16);
             this.lblProgramadores.TabIndex = 15;
             this.lblProgramadores.Text = "Bienvenido A Nuestro Programa ";
             // 
@@ -338,7 +338,7 @@
             this.nurse.ForeColor = System.Drawing.Color.Gainsboro;
             this.nurse.Location = new System.Drawing.Point(80, 332);
             this.nurse.Name = "nurse";
-            this.nurse.Size = new System.Drawing.Size(74, 16);
+            this.nurse.Size = new System.Drawing.Size(73, 16);
             this.nurse.TabIndex = 13;
             this.nurse.Text = "Enfermera";
             // 
@@ -361,7 +361,7 @@
             this.label15.ForeColor = System.Drawing.Color.Gainsboro;
             this.label15.Location = new System.Drawing.Point(80, 298);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 16);
+            this.label15.Size = new System.Drawing.Size(49, 16);
             this.label15.TabIndex = 11;
             this.label15.Text = "Doctor";
             // 
@@ -384,7 +384,7 @@
             this.label14.ForeColor = System.Drawing.Color.Gainsboro;
             this.label14.Location = new System.Drawing.Point(80, 264);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(101, 16);
+            this.label14.Size = new System.Drawing.Size(100, 16);
             this.label14.TabIndex = 9;
             this.label14.Text = "Administrador";
             // 
@@ -395,7 +395,7 @@
             this.label13.ForeColor = System.Drawing.Color.Gainsboro;
             this.label13.Location = new System.Drawing.Point(6, 231);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 16);
+            this.label13.Size = new System.Drawing.Size(82, 16);
             this.label13.TabIndex = 8;
             this.label13.Text = "Cuales son:";
             // 
@@ -406,7 +406,7 @@
             this.label12.ForeColor = System.Drawing.Color.Gainsboro;
             this.label12.Location = new System.Drawing.Point(6, 215);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(247, 16);
+            this.label12.Size = new System.Drawing.Size(246, 16);
             this.label12.TabIndex = 7;
             this.label12.Text = "Asignados Los Roles Por Usuario, Los ";
             // 
@@ -417,7 +417,7 @@
             this.label11.ForeColor = System.Drawing.Color.Gainsboro;
             this.label11.Location = new System.Drawing.Point(6, 199);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(223, 16);
+            this.label11.Size = new System.Drawing.Size(222, 16);
             this.label11.TabIndex = 6;
             this.label11.Text = "Ocupo Lenguaje Query, Ya Estan";
             // 
@@ -428,7 +428,7 @@
             this.label10.ForeColor = System.Drawing.Color.Gainsboro;
             this.label10.Location = new System.Drawing.Point(6, 183);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(227, 16);
+            this.label10.Size = new System.Drawing.Size(226, 16);
             this.label10.TabIndex = 5;
             this.label10.Text = "Creacion De La Base De Datos Se ";
             // 
@@ -439,7 +439,7 @@
             this.label9.ForeColor = System.Drawing.Color.Gainsboro;
             this.label9.Location = new System.Drawing.Point(6, 151);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(235, 16);
+            this.label9.Size = new System.Drawing.Size(234, 16);
             this.label9.TabIndex = 4;
             this.label9.Text = "Para El Registro De Clinica Privada";
             // 
@@ -450,7 +450,7 @@
             this.label8.ForeColor = System.Drawing.Color.Gainsboro;
             this.label8.Location = new System.Drawing.Point(6, 167);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(238, 16);
+            this.label8.Size = new System.Drawing.Size(237, 16);
             this.label8.TabIndex = 3;
             this.label8.Text = "Creado Con Lenguaje C# y Para La";
             // 
@@ -461,7 +461,7 @@
             this.label6.ForeColor = System.Drawing.Color.Gainsboro;
             this.label6.Location = new System.Drawing.Point(6, 135);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(215, 16);
+            this.label6.Size = new System.Drawing.Size(214, 16);
             this.label6.TabIndex = 2;
             this.label6.Text = "Bienvendo A Nuestro Programa ";
             // 
@@ -584,7 +584,7 @@
             this.back.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(44)))), ((int)(((byte)(86)))));
             this.back.IconChar = FontAwesome.Sharp.IconChar.ArrowCircleLeft;
             this.back.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(44)))), ((int)(((byte)(86)))));
-            this.back.IconSize = 25;
+            this.back.IconSize = 31;
             this.back.Location = new System.Drawing.Point(9, 381);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(32, 31);
