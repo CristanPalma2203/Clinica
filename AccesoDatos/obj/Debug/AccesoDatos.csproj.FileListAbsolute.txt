@@ -55,3 +55,4 @@ C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\obj\Debug\AccesoDatos.csp
 C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\obj\Debug\AccesoDatos.pdb
 C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\Guna.UI2.dll
+C:\Users\Billy Mejia\Desktop\Clinica\AccesoDatos\bin\Debug\Guna.UI2.dll

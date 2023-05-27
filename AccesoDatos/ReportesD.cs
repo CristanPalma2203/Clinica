@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace AccesoDatos
 {
@@ -16,14 +17,25 @@ namespace AccesoDatos
     {
         public void GenerarInformePDF(string rutaArchivoPDF, string tabla)
         {
+
+            string rutaImagen = "https://res.cloudinary.com/dsiy0tpfx/image/upload/v1685213952/1_depzqp.png";
+            // Agregar título
+            float pieAlto = 10f;
+
             Document documento = new Document(PageSize.A4.Rotate());
-            documento.SetMargins(20f, 20f, 20f, 30f); // left, right, up, down
+            documento.SetMargins(20f, 20f, 20f, documento.BottomMargin + pieAlto); // left, right, up, down
 
             PdfWriter escritor = PdfWriter.GetInstance(documento, new FileStream(rutaArchivoPDF, FileMode.Create));
 
             escritor.PageEvent = new NumeradorPagina("Desarrollado por G.E.I.J", -5);
 
             documento.Open();
+            // Agregar imagen
+            Image imagen = Image.GetInstance(rutaImagen);
+            imagen.Alignment = Element.ALIGN_LEFT;
+            imagen.ScaleToFit(100f, 100f); // Ajusta el tamaño de la imagen según tus necesidades
+            //contenedor.Add(imagen);
+            documento.Add(imagen);
 
             Paragraph titulo = new Paragraph("Informe PDF de la tabla " + tabla + "\n\n");
             titulo.Alignment = Element.ALIGN_CENTER;
@@ -133,8 +145,19 @@ namespace AccesoDatos
                 float encabezadoAncho = document.PageSize.Width - document.LeftMargin - document.RightMargin - 45;
                 float encabezadoAltura = document.PageSize.Height - document.TopMargin + pieAlto;
 
-                float xFecha = encabezadoAncho - fuente.GetWidthPoint(fecha, tamanoFuente);
+                // Cargar la imagen del logo
+                string rutaLogo = "C:\\Users\\Billy Mejia\\Desktop\\Clinica\\GUI_Principal\\Resources\\U Tech Medic Logo Para Fondo De Color.png"; // Reemplaza con la ruta de tu imagen
+                Image logo = Image.GetInstance(rutaLogo);
+                logo.ScaleToFit(50f, 50f); // Ajusta el tamaño del logo según tus necesidades
 
+                // Posicionar el logo en el encabezado
+                float xLogo = document.LeftMargin;
+                float yLogo = encabezadoAltura - 50f; // Ajusta la posición vertical del logo
+
+                // Agregar el logo al contenido de la página
+                cb.AddImage(logo, logo.Width, 0, 0, logo.Height, xLogo, yLogo);
+
+                float xFecha = encabezadoAncho - fuente.GetWidthPoint(fecha, tamanoFuente);
                 float xHora = encabezadoAncho - fuente.GetWidthPoint(hora, tamanoFuente);
 
                 cb.BeginText();

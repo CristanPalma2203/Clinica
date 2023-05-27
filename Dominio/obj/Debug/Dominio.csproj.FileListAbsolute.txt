@@ -77,3 +77,4 @@ C:\Users\Josue\Desktop\change name\Clinica\Dominio\obj\Debug\Dominio.csproj.Copy
 C:\Users\Josue\Desktop\change name\Clinica\Dominio\obj\Debug\Dominio.dll
 C:\Users\Josue\Desktop\change name\Clinica\Dominio\obj\Debug\Dominio.pdb
 C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\Guna.UI2.dll
+C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\Guna.UI2.dll

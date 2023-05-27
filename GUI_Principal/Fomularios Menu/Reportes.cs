@@ -87,5 +87,10 @@ namespace GUI_Principal
         {
 
         }
+
+        private void lblTotalCitas_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

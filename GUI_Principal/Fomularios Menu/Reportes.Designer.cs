@@ -160,6 +160,7 @@
             this.lblTotalCitas.Size = new System.Drawing.Size(65, 23);
             this.lblTotalCitas.TabIndex = 24;
             this.lblTotalCitas.Text = "00000";
+            this.lblTotalCitas.Click += new System.EventHandler(this.lblTotalCitas_Click);
             // 
             // prueba2
             // 

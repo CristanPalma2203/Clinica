@@ -526,3 +526,4 @@ C:\Users\Josue\Desktop\change name\Clinica\PresentacionGUI\obj\Debug\GUI_Clinica
 C:\Users\Josue\Desktop\change name\Clinica\PresentacionGUI\obj\Debug\Sistema Clinico.exe
 C:\Users\Josue\Desktop\change name\Clinica\PresentacionGUI\obj\Debug\Sistema Clinico.pdb
 C:\Users\Josue\Desktop\change name\Clinica\PresentacionGUI\bin\Debug\Guna.UI2.dll
+C:\Users\Billy Mejia\Desktop\Clinica\PresentacionGUI\bin\Debug\Guna.UI2.dll

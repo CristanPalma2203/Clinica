@@ -355,7 +355,6 @@ C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Formu
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Formularios_Acciones.DatosPaciente.resources
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Formularios_Acciones.NuevaCita.resources
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.FrmExpediente.resources
-C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Programadores.resources
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Citas.resources
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Paciente.resources
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\obj\Debug\GUI_Principal.Properties.Resources.resources
@@ -456,3 +455,4 @@ C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\obj\Debug\Formularios.c
 C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\obj\Debug\GUI_Principal.exe
 C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\obj\Debug\GUI_Principal.pdb
 C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\Guna.UI2.dll
+C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\bin\Debug\Guna.UI2.dll
