@@ -176,6 +176,7 @@
             this.logopic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logopic.TabIndex = 18;
             this.logopic.TabStop = false;
+           
             // 
             // label6
             // 
@@ -338,7 +339,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(44)))), ((int)(((byte)(86)))));
             this.label1.Location = new System.Drawing.Point(101, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 32);
+            this.label1.Size = new System.Drawing.Size(184, 32);
             this.label1.TabIndex = 14;
             this.label1.Text = "Iniciar Sesion";
             // 
@@ -366,7 +367,6 @@
             this.Usuario.Size = new System.Drawing.Size(240, 20);
             this.Usuario.TabIndex = 15;
             this.Usuario.Text = "Usuario";
-            this.Usuario.TextChanged += new System.EventHandler(this.Usuario_TextChanged);
             this.Usuario.Enter += new System.EventHandler(this.Usuario_Enter);
             this.Usuario.Leave += new System.EventHandler(this.Usuario_Leave);
             // 

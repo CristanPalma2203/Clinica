@@ -64,7 +64,7 @@ namespace GUI_Principal
 
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
                 saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
-                saveFileDialog.FileName = "ReportTest.pdf";
+                saveFileDialog.FileName = "Report "+ opcion + ".pdf";
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string ruta = saveFileDialog.FileName;
@@ -76,21 +76,6 @@ namespace GUI_Principal
             {
                 MessageBox.Show("Por favor, selecciona una opción del ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbxReportes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTotalCitas_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

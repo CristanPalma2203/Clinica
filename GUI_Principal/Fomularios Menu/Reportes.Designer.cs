@@ -96,7 +96,6 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(135, 36);
             this.guna2ComboBox1.TabIndex = 32;
-            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // btnGenerar
             // 
@@ -160,7 +159,6 @@
             this.lblTotalCitas.Size = new System.Drawing.Size(65, 23);
             this.lblTotalCitas.TabIndex = 24;
             this.lblTotalCitas.Text = "00000";
-            this.lblTotalCitas.Click += new System.EventHandler(this.lblTotalCitas_Click);
             // 
             // prueba2
             // 

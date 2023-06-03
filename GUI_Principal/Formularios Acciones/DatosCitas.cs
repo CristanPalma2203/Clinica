@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaComun.Cache;
+using AccesoDatos;
+using Guna.UI2.WinForms;
+using GUI_Principal.Factura;
 
 namespace GUI_Principal.Formularios_Acciones
 {
@@ -267,6 +270,32 @@ namespace GUI_Principal.Formularios_Acciones
             {
                 msjError("Ingrese Un Dui Valido");
 
+            }
+        }
+
+        private void iconBtnFacutra_Click(object sender, EventArgs e)
+        {
+            Invoice invoice = new Invoice();
+            int dui = Convert.ToInt32(dataGridView1.CurrentRow.Cells["Dui"].Value.ToString());
+            if (dui !=0)
+            {
+                string opcion = dui.ToString();
+
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
+                saveFileDialog.FileName = "Factura_"+dui+".pdf";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string ruta = saveFileDialog.FileName;
+
+
+                    invoice.GeneratePDFInvoice(ruta,opcion); 
+                    //GeneratePDFInvoice(ruta,opcion);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, DUI para generar Factura", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

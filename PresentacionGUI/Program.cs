@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI_Principal.Formularios_Acciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace PresentacionGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new LoginForm()); ;//DatosCitas
         }
     }
 }

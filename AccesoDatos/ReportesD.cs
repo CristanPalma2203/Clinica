@@ -146,7 +146,7 @@ namespace AccesoDatos
                 float encabezadoAltura = document.PageSize.Height - document.TopMargin + pieAlto;
 
                 // Cargar la imagen del logo
-                string rutaLogo = "C:\\Users\\Billy Mejia\\Desktop\\Clinica\\GUI_Principal\\Resources\\U Tech Medic Logo Para Fondo De Color.png"; // Reemplaza con la ruta de tu imagen
+                string rutaLogo = "https://res.cloudinary.com/dsiy0tpfx/image/upload/v1685213952/1_depzqp.png"; // Reemplaza con la ruta de tu imagen
                 Image logo = Image.GetInstance(rutaLogo);
                 logo.ScaleToFit(50f, 50f); // Ajusta el tamaño del logo según tus necesidades
 

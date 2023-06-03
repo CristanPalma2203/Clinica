@@ -53,6 +53,7 @@
             this.SearchExp = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.paneltrasero = new System.Windows.Forms.Panel();
+            this.iconBtnFacutra = new FontAwesome.Sharp.IconButton();
             this.panelcentral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.calendario)).BeginInit();
@@ -63,6 +64,7 @@
             // 
             // panelcentral
             // 
+            this.panelcentral.Controls.Add(this.iconBtnFacutra);
             this.panelcentral.Controls.Add(this.lblVolver);
             this.panelcentral.Controls.Add(this.Regresar);
             this.panelcentral.Controls.Add(this.calendario);
@@ -99,7 +101,7 @@
             this.lblVolver.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblVolver.Location = new System.Drawing.Point(59, 23);
             this.lblVolver.Name = "lblVolver";
-            this.lblVolver.Size = new System.Drawing.Size(66, 16);
+            this.lblVolver.Size = new System.Drawing.Size(65, 16);
             this.lblVolver.TabIndex = 144;
             this.lblVolver.Text = "Regresar";
             this.lblVolver.Click += new System.EventHandler(this.lblVolver_Click);
@@ -140,7 +142,7 @@
             this.label13.ForeColor = System.Drawing.Color.DimGray;
             this.label13.Location = new System.Drawing.Point(792, 19);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 16);
+            this.label13.Size = new System.Drawing.Size(47, 16);
             this.label13.TabIndex = 141;
             this.label13.Text = "AAAA";
             // 
@@ -151,7 +153,7 @@
             this.label12.ForeColor = System.Drawing.Color.DimGray;
             this.label12.Location = new System.Drawing.Point(753, 19);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 16);
+            this.label12.Size = new System.Drawing.Size(31, 16);
             this.label12.TabIndex = 140;
             this.label12.Text = "MM";
             // 
@@ -162,7 +164,7 @@
             this.label11.ForeColor = System.Drawing.Color.DimGray;
             this.label11.Location = new System.Drawing.Point(719, 18);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(26, 16);
+            this.label11.Size = new System.Drawing.Size(25, 16);
             this.label11.TabIndex = 139;
             this.label11.Text = "DD";
             // 
@@ -229,7 +231,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(177)))), ((int)(((byte)(248)))));
             this.label5.Location = new System.Drawing.Point(615, 33);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 16);
+            this.label5.Size = new System.Drawing.Size(110, 16);
             this.label5.TabIndex = 133;
             this.label5.Text = "Fecha de Cita : ";
             // 
@@ -249,7 +251,7 @@
             this.EleminarCita.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(177)))), ((int)(((byte)(248)))));
             this.EleminarCita.IconSize = 40;
             this.EleminarCita.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EleminarCita.Location = new System.Drawing.Point(573, 373);
+            this.EleminarCita.Location = new System.Drawing.Point(634, 373);
             this.EleminarCita.Name = "EleminarCita";
             this.EleminarCita.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.EleminarCita.Rotation = 0D;
@@ -276,7 +278,7 @@
             this.ActualizarCita.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(177)))), ((int)(((byte)(248)))));
             this.ActualizarCita.IconSize = 40;
             this.ActualizarCita.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ActualizarCita.Location = new System.Drawing.Point(119, 373);
+            this.ActualizarCita.Location = new System.Drawing.Point(75, 373);
             this.ActualizarCita.Name = "ActualizarCita";
             this.ActualizarCita.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.ActualizarCita.Rotation = 0D;
@@ -294,7 +296,7 @@
             this.Errorlbl.ForeColor = System.Drawing.Color.Gainsboro;
             this.Errorlbl.Location = new System.Drawing.Point(465, 77);
             this.Errorlbl.Name = "Errorlbl";
-            this.Errorlbl.Size = new System.Drawing.Size(50, 16);
+            this.Errorlbl.Size = new System.Drawing.Size(49, 16);
             this.Errorlbl.TabIndex = 129;
             this.Errorlbl.Text = "ERROR";
             this.Errorlbl.Visible = false;
@@ -409,6 +411,33 @@
             this.paneltrasero.Size = new System.Drawing.Size(870, 235);
             this.paneltrasero.TabIndex = 124;
             // 
+            // iconBtnFacutra
+            // 
+            this.iconBtnFacutra.BackColor = System.Drawing.Color.Transparent;
+            this.iconBtnFacutra.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBtnFacutra.FlatAppearance.BorderSize = 0;
+            this.iconBtnFacutra.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.iconBtnFacutra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(21)))));
+            this.iconBtnFacutra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(7)))), ((int)(((byte)(21)))));
+            this.iconBtnFacutra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconBtnFacutra.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconBtnFacutra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconBtnFacutra.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconBtnFacutra.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.iconBtnFacutra.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(177)))), ((int)(((byte)(248)))));
+            this.iconBtnFacutra.IconSize = 40;
+            this.iconBtnFacutra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconBtnFacutra.Location = new System.Drawing.Point(354, 373);
+            this.iconBtnFacutra.Name = "iconBtnFacutra";
+            this.iconBtnFacutra.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconBtnFacutra.Rotation = 0D;
+            this.iconBtnFacutra.Size = new System.Drawing.Size(222, 51);
+            this.iconBtnFacutra.TabIndex = 145;
+            this.iconBtnFacutra.Text = "Generar Factura";
+            this.iconBtnFacutra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconBtnFacutra.UseVisualStyleBackColor = false;
+            this.iconBtnFacutra.Click += new System.EventHandler(this.iconBtnFacutra_Click);
+            // 
             // DatosCitas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -458,5 +487,6 @@
         private System.Windows.Forms.Panel paneltrasero;
         private System.Windows.Forms.Label lblVolver;
         private FontAwesome.Sharp.IconPictureBox Regresar;
+        private FontAwesome.Sharp.IconButton iconBtnFacutra;
     }
 }
