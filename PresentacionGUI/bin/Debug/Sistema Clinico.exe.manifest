@@ -463,14 +463,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI_Principal.exe" size="415744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GUI_Principal.exe" size="416768">
       <assemblyIdentity name="GUI_Principal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YWvr5/yEhrnYgdEHnTraRrRVuK7MpQ8F5rsCYknet+E=</dsig:DigestValue>
+        <dsig:DigestValue>ZpP1Zvy9vLursqFVx9Psbv7FKrZlquKmpIIW7YOvtQE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -506,7 +506,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wNE1d8JHn276wvT7tyxXb/7KyEVci9uOLVgIHKSmPvo=</dsig:DigestValue>
+        <dsig:DigestValue>nU2WY7PaPuwxsbQScmADyxRNnHX2BFxQuucAs7gBkEc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -14,6 +14,7 @@ using System.Xml.Linq;
 using System.Windows.Forms.Design;
 using Dominio;
 using System.Data.SqlClient;
+using GUI_Principal.Formularios_Acciones;
 
 namespace GUI_Principal.Factura
 {
@@ -37,17 +38,26 @@ namespace GUI_Principal.Factura
             documento.Open();
 
             #region -> datos
-            string consultaSQL = "SELECT p.Nombre_Paciente, p.Apellidos_Paciente, p.Telefono_Paciente, p.Direccion_Paciente, c.Fecha_HoraCreacion, c.CreadoPor FROM Paciente p\r\nJOIN Citas c ON p.Dui = c.dui WHERE c.dui = @dui;"; // Reemplaza "Paciente" por el nombre de tu tabla y "dui" por el nombre de tu columna de identificación del cliente
+
+            string consultaSQL = "SELECT p.Nombre_Paciente, p.Apellidos_Paciente, p.Telefono_Paciente, p.Direccion_Paciente, c.Fecha_HoraCreacion, c.CreadoPor, c.num_cita, c.Motivo, c.Precio FROM Paciente p JOIN Citas c ON p.Dui = c.dui WHERE c.dui = @dui;";
+
+            #region -> variables
+
             int clienteId = Convert.ToInt32(dui.ToString());
             string nombreCliente = "";
             string apellidoCliente = "";
             int telefonoCliente = 1;
             string direccionClient = "";
             DateTime dateCreation = DateTime.MinValue;
-            
             string creadaPor = "";
-
+            string motivoCons = "";
+            int idCita = 1;
+            decimal precio = 0;
             DateTime dateTime = DateTime.Now;
+
+            #endregion
+
+
             using (var conexion = GetConnection())
             {
                 conexion.Open();
@@ -65,6 +75,10 @@ namespace GUI_Principal.Factura
                             telefonoCliente = Convert.ToInt32(lector.GetValue(2));
                             direccionClient = lector.GetString(3);
                             dateCreation = lector.GetDateTime(4);
+                            creadaPor = lector.GetString(5);
+                            idCita = Convert.ToInt32(lector.GetValue(6));
+                            motivoCons = lector.GetString(7);
+                            precio = Convert.ToDecimal(lector.GetValue(8));
                         }
                     }
                 }
@@ -72,7 +86,6 @@ namespace GUI_Principal.Factura
                 conexion.Close();
             }
             #endregion
-
 
             #region-> DataHead
 
@@ -123,10 +136,6 @@ namespace GUI_Principal.Factura
             tableDatos.DefaultCell.Border = Rectangle.NO_BORDER;
 
             // Agregar los pares de datos a la tabla
-
-            // Agregar los pares de datos a la tabla
-            ModeloPaciente p = new ModeloPaciente();
-            string nombre = "test";
             PdfPCell cell1 = new PdfPCell(new Phrase("Nombre: " + nombreCliente, Infortation));
             cell1.PaddingBottom = 8f;
 
@@ -138,6 +147,11 @@ namespace GUI_Principal.Factura
             cell2.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell2);
 
+            PdfPCell cell5 = new PdfPCell(new Phrase("DUI: " + clienteId, Infortation));
+            cell5.PaddingBottom = 8f;
+            cell5.Border = Rectangle.NO_BORDER;
+            tableDatos.AddCell(cell5);
+
             PdfPCell cell3 = new PdfPCell(new Phrase("Dirección: "+ direccionClient, Infortation));
             cell3.PaddingBottom = 8f;
             cell3.Border = Rectangle.NO_BORDER;
@@ -147,11 +161,6 @@ namespace GUI_Principal.Factura
             cell4.PaddingBottom = 8f;
             cell4.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell4);
-
-            PdfPCell cell5 = new PdfPCell(new Phrase("DUI: "+clienteId, Infortation));
-            cell5.PaddingBottom = 8f;
-            cell5.Border = Rectangle.NO_BORDER;
-            tableDatos.AddCell(cell5);
 
             PdfPCell cell6 = new PdfPCell(new Phrase("Fecha de cita: "+ dateCreation.ToString(), Infortation));
             cell6.PaddingBottom = 8f;
@@ -170,21 +179,45 @@ namespace GUI_Principal.Factura
 
             // Añadir la tabla al documento
             documento.Add(tableDatos);
+
             #endregion
 
             #region -> dataBody
-            // Agregar la tabla de detalles de la factura
-            PdfPTable tablaDetalles = new PdfPTable(4); // 4 columnas: codigo, conulta,cantidad, precio, 
-            tablaDetalles.WidthPercentage = 100;
-            tablaDetalles.SetWidths(new float[] { 1f, 3f, 2f, 1f});
+
+            PdfPTable tablaDetalles = new PdfPTable(4); // Añadimos una columna adicional
+            tablaDetalles.WidthPercentage = 90;
+            tablaDetalles.PaddingTop = 25f;
+            
+           
+            tablaDetalles.SetWidths(new float[] { 1f, 4f, 1f, 1f }); 
+
+                        // Ajustar tamaño de fuente y separación
+            Font fuenteDetalles1 = new Font(Font.FontFamily.HELVETICA, 14, Font.BOLD);
+            Font fuenteCliente1 = new Font(Font.FontFamily.HELVETICA, 12);
+            fuenteDetalles.Color = BaseColor.BLACK;
+            fuenteCliente.Color = BaseColor.BLACK;
+            float spacingAfter = 10;
 
             // Agregar encabezados de columna
-            PdfPCell codigoConsulta = new PdfPCell(new Phrase("Codigo", fuenteDetalles));
-            PdfPCell celdaProducto = new PdfPCell(new Phrase("Descripcion", fuenteDetalles));
-            PdfPCell celdaCantidad = new PdfPCell(new Phrase("Cantidad", fuenteDetalles));
-            PdfPCell celdaPrecio = new PdfPCell(new Phrase("Precio", fuenteDetalles));
+            PdfPCell codigoConsulta = new PdfPCell(new Phrase("Codigo", fuenteDetalles1));
+            codigoConsulta.Padding = 6f;
+            codigoConsulta.HorizontalAlignment = Element.ALIGN_CENTER;
+
+
+            PdfPCell celdaProducto = new PdfPCell(new Phrase("Descripcion", fuenteDetalles1));
+            celdaProducto.Padding = 6f;
+            celdaProducto.HorizontalAlignment = Element.ALIGN_CENTER;
+
+            PdfPCell celdaCantidad = new PdfPCell(new Phrase("Cantidad", fuenteDetalles1));
+            celdaCantidad.Padding = 6f;
+            celdaCantidad.HorizontalAlignment = Element.ALIGN_CENTER;
+
+            PdfPCell celdaPrecio = new PdfPCell(new Phrase("Precio", fuenteDetalles1));
+            celdaPrecio.Padding = 6f;
+            celdaPrecio.HorizontalAlignment = Element.ALIGN_CENTER;
+
             codigoConsulta.BackgroundColor = new BaseColor(192, 192, 192);
-            celdaProducto.BackgroundColor = new BaseColor(192, 192, 192); // Color de fondo para el encabezado
+            celdaProducto.BackgroundColor = new BaseColor(192, 192, 192);
             celdaCantidad.BackgroundColor = new BaseColor(192, 192, 192);
             celdaPrecio.BackgroundColor = new BaseColor(192, 192, 192);
             tablaDetalles.AddCell(codigoConsulta);
@@ -192,29 +225,44 @@ namespace GUI_Principal.Factura
             tablaDetalles.AddCell(celdaCantidad);
             tablaDetalles.AddCell(celdaPrecio);
 
+            // Agregar la información del cliente como filas de la tabla
+            PdfPCell idCitaCell = new PdfPCell(new Phrase(idCita.ToString(), fuenteCliente1));
+            idCitaCell.PaddingTop = 10f; 
+            idCitaCell.PaddingBottom = 10f;
+
+            PdfPCell motivoConsCell = new PdfPCell(new Phrase(motivoCons, fuenteCliente1));
+            motivoConsCell.PaddingTop = 10f; 
+            motivoConsCell.PaddingBottom = 10f;
+
+            PdfPCell cantidadCell = new PdfPCell(new Phrase("1", fuenteCliente1));
+            cantidadCell.PaddingTop = 10f;
+            cantidadCell.PaddingBottom = 10f;
+
+            PdfPCell precioCell = new PdfPCell(new Phrase(precio.ToString(), fuenteCliente1));
+            precioCell.PaddingTop = 10f;
+            precioCell.PaddingBottom = 10f;
+
+            tablaDetalles.AddCell(idCitaCell);
+            tablaDetalles.AddCell(motivoConsCell);
+            tablaDetalles.AddCell(cantidadCell);
+            tablaDetalles.AddCell(precioCell);
+
             documento.Add(tablaDetalles);
 
-            // Agregar la información del cliente
-            Paragraph clienteInfo = new Paragraph("test", fuenteCliente);
-            clienteInfo.SpacingAfter = 10;
-            documento.Add(clienteInfo);
-
-            Paragraph direccionInfo = new Paragraph("test", fuenteCliente);
-            direccionInfo.SpacingAfter = 20;
-            documento.Add(direccionInfo);
-
             BaseColor redColor = BaseColor.RED;
-            fuenteTotal = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD, redColor);
+            Font fuenteTotal1 = new Font(Font.FontFamily.HELVETICA, 16, Font.BOLD, redColor);
 
-            Paragraph totalInfo = new Paragraph("Total ", fuenteTotal);
+            Paragraph totalInfo = new Paragraph("Total: $"+precio , fuenteTotal1);
             totalInfo.Alignment = Element.ALIGN_RIGHT;
-            totalInfo.SpacingBefore = 20;
+            totalInfo.SpacingBefore = 30; // Aumentar separación
             documento.Add(totalInfo);
+
+
 
             #endregion
 
             #region -> linea   
-            
+
             PdfContentByte underContent = escritor.DirectContent;
 
             // Definir los puntos de inicio y fin de la línea
@@ -239,14 +287,5 @@ namespace GUI_Principal.Factura
             Process.Start(rutaArchivoPDF);
         }
 
-
-
-
-        private void addTableDetail()
-        {
-           // Reemplaza esto con la cadena de conexión a tu base de datos
-           
-
-        }
     }
 }
