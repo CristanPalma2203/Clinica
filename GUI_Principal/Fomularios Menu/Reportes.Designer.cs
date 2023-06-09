@@ -1,4 +1,6 @@
-﻿namespace GUI_Principal
+﻿using System.Drawing;
+
+namespace GUI_Principal
 {
     partial class Reportes
     {
@@ -42,6 +44,14 @@
             this.prueba2 = new System.Windows.Forms.Label();
             this.Prueba1 = new System.Windows.Forms.Label();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunePanelfechas = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.CalenderSince = new System.Windows.Forms.MonthCalendar();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.CalenderUntil = new System.Windows.Forms.MonthCalendar();
+            this.textBoxFechaSeleccionadaHasta = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.textBoxFechaSeleccionadaDesde = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.iconMonto = new FontAwesome.Sharp.IconPictureBox();
             this.iconCitas = new FontAwesome.Sharp.IconPictureBox();
@@ -49,6 +59,7 @@
             this.PanelPaciente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChartBar)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
+            this.bunePanelfechas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMonto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCitas)).BeginInit();
@@ -96,6 +107,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(135, 36);
             this.guna2ComboBox1.TabIndex = 32;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // btnGenerar
             // 
@@ -188,6 +200,7 @@
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.bunePanelfechas);
             this.bunifuGradientPanel1.Controls.Add(this.chart1);
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(37)))));
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(37)))));
@@ -198,6 +211,125 @@
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(747, 287);
             this.bunifuGradientPanel1.TabIndex = 21;
+            // 
+            // bunePanelfechas
+            // 
+            this.bunePanelfechas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunePanelfechas.BackgroundImage")));
+            this.bunePanelfechas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunePanelfechas.Controls.Add(this.label4);
+            this.bunePanelfechas.Controls.Add(this.CalenderSince);
+            this.bunePanelfechas.Controls.Add(this.label3);
+            this.bunePanelfechas.Controls.Add(this.label2);
+            this.bunePanelfechas.Controls.Add(this.CalenderUntil);
+            this.bunePanelfechas.Controls.Add(this.textBoxFechaSeleccionadaHasta);
+            this.bunePanelfechas.Controls.Add(this.textBoxFechaSeleccionadaDesde);
+            this.bunePanelfechas.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(37)))));
+            this.bunePanelfechas.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(37)))));
+            this.bunePanelfechas.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.bunePanelfechas.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.bunePanelfechas.Location = new System.Drawing.Point(3, 0);
+            this.bunePanelfechas.Name = "bunePanelfechas";
+            this.bunePanelfechas.Quality = 10;
+            this.bunePanelfechas.Size = new System.Drawing.Size(747, 287);
+            this.bunePanelfechas.TabIndex = 22;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label4.Location = new System.Drawing.Point(204, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(295, 23);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Reporte de Ganancias Por Mes";
+            // 
+            // CalenderSince
+            // 
+            this.CalenderSince.Location = new System.Drawing.Point(428, 99);
+            this.CalenderSince.Name = "CalenderSince";
+            this.CalenderSince.TabIndex = 9;
+            this.CalenderSince.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.CalenderSince_DateChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(416, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 24);
+            this.label3.TabIndex = 7;
+            this.label3.Tag = "Hasta";
+            this.label3.Text = "Hasta:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(35, 53);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 24);
+            this.label2.TabIndex = 6;
+            this.label2.Tag = "Hasta";
+            this.label2.Text = "Desde:";
+            // 
+            // CalenderUntil
+            // 
+            this.CalenderUntil.Location = new System.Drawing.Point(53, 99);
+            this.CalenderUntil.Name = "CalenderUntil";
+            this.CalenderUntil.TabIndex = 8;
+            this.CalenderUntil.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.CalenderUntil_DateChanged);
+            // 
+            // textBoxFechaSeleccionadaHasta
+            // 
+            this.textBoxFechaSeleccionadaHasta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.textBoxFechaSeleccionadaHasta.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.textBoxFechaSeleccionadaHasta.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.textBoxFechaSeleccionadaHasta.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxFechaSeleccionadaHasta.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.textBoxFechaSeleccionadaHasta.ForeColor = System.Drawing.Color.White;
+            this.textBoxFechaSeleccionadaHasta.HintForeColor = System.Drawing.Color.Empty;
+            this.textBoxFechaSeleccionadaHasta.HintText = "";
+            this.textBoxFechaSeleccionadaHasta.isPassword = false;
+            this.textBoxFechaSeleccionadaHasta.LineFocusedColor = System.Drawing.Color.Blue;
+            this.textBoxFechaSeleccionadaHasta.LineIdleColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.textBoxFechaSeleccionadaHasta.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.textBoxFechaSeleccionadaHasta.LineThickness = 3;
+            this.textBoxFechaSeleccionadaHasta.Location = new System.Drawing.Point(122, 53);
+            this.textBoxFechaSeleccionadaHasta.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxFechaSeleccionadaHasta.MaxLength = 32767;
+            this.textBoxFechaSeleccionadaHasta.Name = "textBoxFechaSeleccionadaHasta";
+            this.textBoxFechaSeleccionadaHasta.Size = new System.Drawing.Size(179, 33);
+            this.textBoxFechaSeleccionadaHasta.TabIndex = 5;
+            this.textBoxFechaSeleccionadaHasta.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // textBoxFechaSeleccionadaDesde
+            // 
+            this.textBoxFechaSeleccionadaDesde.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.textBoxFechaSeleccionadaDesde.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.textBoxFechaSeleccionadaDesde.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.textBoxFechaSeleccionadaDesde.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxFechaSeleccionadaDesde.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.textBoxFechaSeleccionadaDesde.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.textBoxFechaSeleccionadaDesde.HintForeColor = System.Drawing.Color.Empty;
+            this.textBoxFechaSeleccionadaDesde.HintText = "";
+            this.textBoxFechaSeleccionadaDesde.isPassword = false;
+            this.textBoxFechaSeleccionadaDesde.LineFocusedColor = System.Drawing.Color.Blue;
+            this.textBoxFechaSeleccionadaDesde.LineIdleColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.textBoxFechaSeleccionadaDesde.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.textBoxFechaSeleccionadaDesde.LineThickness = 3;
+            this.textBoxFechaSeleccionadaDesde.Location = new System.Drawing.Point(485, 53);
+            this.textBoxFechaSeleccionadaDesde.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxFechaSeleccionadaDesde.MaxLength = 32767;
+            this.textBoxFechaSeleccionadaDesde.Name = "textBoxFechaSeleccionadaDesde";
+            this.textBoxFechaSeleccionadaDesde.Size = new System.Drawing.Size(191, 33);
+            this.textBoxFechaSeleccionadaDesde.TabIndex = 4;
+            this.textBoxFechaSeleccionadaDesde.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // chart1
             // 
@@ -232,7 +364,7 @@
             series1.MarkerSize = 6;
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(747, 285);
+            this.chart1.Size = new System.Drawing.Size(745, 288);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
             // 
@@ -286,6 +418,8 @@
             this.PanelPaciente.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChartBar)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
+            this.bunePanelfechas.ResumeLayout(false);
+            this.bunePanelfechas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMonto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCitas)).EndInit();
@@ -309,5 +443,13 @@
         private FontAwesome.Sharp.IconPictureBox iconCitas;
         private System.Windows.Forms.Button btnGenerar;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox textBoxFechaSeleccionadaDesde;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox textBoxFechaSeleccionadaHasta;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MonthCalendar CalenderSince;
+        private System.Windows.Forms.MonthCalendar CalenderUntil;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunePanelfechas;
+        private System.Windows.Forms.Label label4;
     }
 }

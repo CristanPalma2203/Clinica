@@ -56,3 +56,8 @@ C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\obj\Debug\AccesoDatos.pdb
 C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\Guna.UI2.dll
 C:\Users\Billy Mejia\Desktop\Clinica\AccesoDatos\bin\Debug\Guna.UI2.dll
+C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\AccesoDatos\bin\Debug\Microsoft.SqlServer.Types.dll

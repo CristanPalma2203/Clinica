@@ -25,16 +25,14 @@ namespace GUI_Principal.Factura
             string rutaImagen = "https://res.cloudinary.com/dsiy0tpfx/image/upload/v1685213952/1_depzqp.png";
 
             // Agregar título
-            float pieAlto = 10f;
-
+       
             Document documento = new Document(PageSize.A4.Rotate());
-            documento.SetMargins(5f, 5f, 5f, documento.BottomMargin + pieAlto); // left, right, up, down
+            documento.SetMargins(5f, 5f, 5f, documento.BottomMargin ); // left, right, up, down
 
             PdfWriter escritor = PdfWriter.GetInstance(documento, new FileStream(rutaArchivoPDF, FileMode.Create));
 
 
-            escritor.PageEvent = new NumeradorPagina("Desarrollado por G.E.I.J", -5);
-
+    
             documento.Open();
 
             #region -> datos
@@ -92,10 +90,12 @@ namespace GUI_Principal.Factura
 
             Font fuenteEncabezado = new Font(Font.FontFamily.HELVETICA, 20, Font.BOLD);
             Font fuenteCliente = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL);
-            Font Infortation = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL);
+            Font Infortation = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL); 
+            Font Information2 = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL);
             Font fuenteDetalles = new Font(Font.FontFamily.HELVETICA, 10, Font.NORMAL);
             Font fuenteTotal = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD);
 
+     
             // Agregar imagen
             Image imagen = Image.GetInstance(rutaImagen);
             imagen.Alignment = Element.ALIGN_LEFT;
@@ -126,53 +126,55 @@ namespace GUI_Principal.Factura
             documento.Add(InformationPhone);
 
             #endregion
-
+         
             #region -> datoUser
             // Datos
             PdfPTable tableDatos = new PdfPTable(2); // 2 columnas para los pares de datos
             tableDatos.SpacingAfter = 8;
+            tableDatos.WidthPercentage = 90;
             tableDatos.SpacingBefore = 18;
+            tableDatos.PaddingTop = 40f;
             // Establecer el color de las líneas en blanco
             tableDatos.DefaultCell.Border = Rectangle.NO_BORDER;
 
             // Agregar los pares de datos a la tabla
-            PdfPCell cell1 = new PdfPCell(new Phrase("Nombre: " + nombreCliente, Infortation));
+            PdfPCell cell1 = new PdfPCell(new Phrase("Nombre: " + nombreCliente, Information2));
             cell1.PaddingBottom = 8f;
 
             cell1.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell1);
 
-            PdfPCell cell2 = new PdfPCell(new Phrase("Apellido: "+ apellidoCliente, Infortation));
+            PdfPCell cell2 = new PdfPCell(new Phrase("Apellido: "+ apellidoCliente, Information2));
             cell2.PaddingBottom = 8f;
             cell2.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell2);
 
-            PdfPCell cell5 = new PdfPCell(new Phrase("DUI: " + clienteId, Infortation));
+            PdfPCell cell5 = new PdfPCell(new Phrase("DUI: " + clienteId, Information2));
             cell5.PaddingBottom = 8f;
             cell5.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell5);
 
-            PdfPCell cell3 = new PdfPCell(new Phrase("Dirección: "+ direccionClient, Infortation));
+            PdfPCell cell3 = new PdfPCell(new Phrase("Dirección: "+ direccionClient, Information2));
             cell3.PaddingBottom = 8f;
             cell3.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell3);
 
-            PdfPCell cell4 = new PdfPCell(new Phrase("Teléfono: "+ telefonoCliente, Infortation));
+            PdfPCell cell4 = new PdfPCell(new Phrase("Teléfono: "+ telefonoCliente, Information2));
             cell4.PaddingBottom = 8f;
             cell4.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell4);
 
-            PdfPCell cell6 = new PdfPCell(new Phrase("Fecha de cita: "+ dateCreation.ToString(), Infortation));
+            PdfPCell cell6 = new PdfPCell(new Phrase("Fecha de cita: "+ dateCreation.ToString(), Information2));
             cell6.PaddingBottom = 8f;
             cell6.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell6);
 
-            PdfPCell cell7 = new PdfPCell(new Phrase("Fecha de factura: "+dateTime, Infortation));
+            PdfPCell cell7 = new PdfPCell(new Phrase("Fecha de factura: "+dateTime, Information2));
             cell7.PaddingBottom = 8f;
             cell7.Border = Rectangle.NO_BORDER; 
             tableDatos.AddCell(cell7);
 
-            PdfPCell cell8 = new PdfPCell(new Phrase("Creada por: " + creadaPor, Infortation));
+            PdfPCell cell8 = new PdfPCell(new Phrase("Creada por: " + creadaPor, Information2));
             cell8.PaddingBottom = 8f;
             cell8.Border = Rectangle.NO_BORDER;
             tableDatos.AddCell(cell8);
@@ -181,6 +183,10 @@ namespace GUI_Principal.Factura
             documento.Add(tableDatos);
 
             #endregion
+
+            Paragraph espacio = new Paragraph(" "); // Párrafo vacío
+            espacio.SpacingAfter = 10;
+            documento.Add(espacio);
 
             #region -> dataBody
 
@@ -238,7 +244,7 @@ namespace GUI_Principal.Factura
             cantidadCell.PaddingTop = 10f;
             cantidadCell.PaddingBottom = 10f;
 
-            PdfPCell precioCell = new PdfPCell(new Phrase(precio.ToString(), fuenteCliente1));
+            PdfPCell precioCell = new PdfPCell(new Phrase("$ " + precio.ToString(), fuenteCliente1));
             precioCell.PaddingTop = 10f;
             precioCell.PaddingBottom = 10f;
 
@@ -287,5 +293,8 @@ namespace GUI_Principal.Factura
             Process.Start(rutaArchivoPDF);
         }
 
+
+
+ 
     }
 }

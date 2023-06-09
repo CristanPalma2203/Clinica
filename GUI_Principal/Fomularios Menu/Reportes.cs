@@ -21,27 +21,30 @@ namespace GUI_Principal
 {
     public partial class Reportes : Form
     {
-  
+     
         private readonly ReportesD reportesD = new ReportesD();
 
         public Reportes()
         {
             InitializeComponent();
-
-            //string[] tablas = { "Usuario", "Paciente", "Expediente", "Diagnostico", "Citas", "Movimientos" };
-
-            //for (int i = 0; i < tablas.Length; i++)
-            //{
-            //    cbxReportes.Items.Add(tablas[i]);
-            //}
-
+            CalenderUntil.DateChanged += CalenderUntil_DateChanged;
+            CalenderSince.DateChanged += CalenderSince_DateChanged;
+            bunePanelfechas.Visible = false;
             List<string> tablas = reportesD.Tablas();
 
             guna2ComboBox1.Items.Clear();
             guna2ComboBox1.Items.AddRange(tablas.ToArray());
-            
+            textBoxFechaSeleccionadaDesde.Enabled = false;
+            textBoxFechaSeleccionadaHasta.Enabled = false;
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            // Actualizar el texto del cuadro de texto con la fecha seleccionada
+            textBoxFechaSeleccionadaHasta.Text = e.Start.ToShortDateString();
         }
       
+
         private void grafica()
         {
             ModeloUsuario mu = new ModeloUsuario();
@@ -61,21 +64,87 @@ namespace GUI_Principal
             if (guna2ComboBox1.SelectedIndex != -1)
             {
                 string opcion = guna2ComboBox1.SelectedItem.ToString();
+                DateTime desdec, hastac;
 
-                SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
-                saveFileDialog.FileName = "Report "+ opcion + ".pdf";
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                if (opcion == "Citas")
                 {
-                    string ruta = saveFileDialog.FileName;
+                    if (DateTime.TryParse(textBoxFechaSeleccionadaDesde.Text, out desdec) && DateTime.TryParse(textBoxFechaSeleccionadaHasta.Text, out hastac))
+                    {
+                        SaveFileDialog saveFileDialog = new SaveFileDialog();
+                        saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
+                        saveFileDialog.FileName = "Report " + opcion + ".pdf";
+                        if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                        {
+                            string ruta = saveFileDialog.FileName;
+                            reportesD.GenerarInformePDF(ruta, opcion, desdec, hastac);
+                        }
+                    }
+                    else
+                    {
+                        // Mostrar un mensaje de error indicando que las fechas no son válidas
+                        MessageBox.Show("Las fechas ingresadas no son válidas.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
 
-                    reportesD.GenerarInformePDF(ruta, opcion);
                 }
+                else {
+                    desdec = DateTime.Now; hastac = DateTime.Now;
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.Filter = "Archivo PDF (*.pdf)|*.pdf";
+                    saveFileDialog.FileName = "Report " + opcion + ".pdf";
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string ruta = saveFileDialog.FileName;
+                        reportesD.GenerarInformePDF(ruta, opcion, desdec, hastac);
+                    }
+                }
+              
             }
             else
             {
-                MessageBox.Show("Por favor, selecciona una opción del ComboBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Mostrar un mensaje de error indicando que los campos están vacíos
+                MessageBox.Show("Por favor, completa los campos de fecha.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+   
+        private void CalenderUntil_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            textBoxFechaSeleccionadaHasta.Text = e.Start.ToShortDateString();
+           
+        }
+
+        private void CalenderSince_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            textBoxFechaSeleccionadaDesde.Text = e.Start.ToShortDateString();
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (guna2ComboBox1.SelectedIndex != -1)
+            {
+                string opcion = guna2ComboBox1.SelectedItem.ToString();
+                DateTime desdec, hastac;
+
+                if (opcion == "Citas")
+                {
+                    bunePanelfechas.Visible = true;
+                    iconMonto.Visible = false;
+                    prueba2.Visible = false;
+                    lblMonto.Visible=false;
+                    Prueba1.Visible = false;
+                    lblTotalCitas.Visible = false;
+                    iconCitas.Visible   =false;
+                }
+                else {
+                    iconMonto.Visible = true;
+                    prueba2.Visible = true;
+                    lblMonto.Visible = true;
+                    Prueba1.Visible = true;
+                    lblTotalCitas.Visible = true;
+                    iconCitas.Visible = true;
+                    bunePanelfechas.Visible = false;
+                    }
+             }
         }
     }
 }

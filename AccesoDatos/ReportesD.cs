@@ -10,65 +10,152 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Xml.Linq;
+using static System.ComponentModel.Design.ObjectSelectorEditor;
+using GUI_Principal.Factura;
 
 namespace AccesoDatos
 {
+
     public class ReportesD : ConexionSQL
     {
-        public void GenerarInformePDF(string rutaArchivoPDF, string tabla)
+    
+        public void GenerarInformePDF(string rutaArchivoPDF, string tabla, DateTime hasta, DateTime desde)
         {
-
             string rutaImagen = "https://res.cloudinary.com/dsiy0tpfx/image/upload/v1685213952/1_depzqp.png";
-            // Agregar título
-            float pieAlto = 10f;
 
             Document documento = new Document(PageSize.A4.Rotate());
-            documento.SetMargins(20f, 20f, 20f, documento.BottomMargin + pieAlto); // left, right, up, down
+            documento.SetMargins(20f, 20f, 20f, documento.BottomMargin + 10f); // left, right, up, down
 
             PdfWriter escritor = PdfWriter.GetInstance(documento, new FileStream(rutaArchivoPDF, FileMode.Create));
 
-            escritor.PageEvent = new NumeradorPagina("Desarrollado por G.E.I.J", -5);
+            string titulo = "Informe PDF de la tabla " + tabla;
+
+            // Crear el evento de encabezado
+            escritor.PageEvent = new HeaderEvent(titulo);
 
             documento.Open();
-            // Agregar imagen
-            Image imagen = Image.GetInstance(rutaImagen);
-            imagen.Alignment = Element.ALIGN_LEFT;
-            imagen.ScaleToFit(100f, 100f); // Ajusta el tamaño de la imagen según tus necesidades
-            //contenedor.Add(imagen);
-            documento.Add(imagen);
 
-            Paragraph titulo = new Paragraph("Informe PDF de la tabla " + tabla + "\n\n");
-            titulo.Alignment = Element.ALIGN_CENTER;
-            titulo.Font = FontFactory.GetFont(FontFactory.HELVETICA_BOLD, 24);
-            documento.Add(titulo);
+            if (tabla == "Citas")
+            { 
+                #region ->citas
+                var table = RetornarTabla2(tabla, hasta, desde);
+                int columnas = table.Columns.Count;
+                int filas = table.Rows.Count;
 
-            var table = RetornarTabla(tabla);
-            int columnas = table.Columns.Count;
-            int filas = table.Rows.Count;
+                PdfPTable tablaPDF = new PdfPTable(columnas);
+                tablaPDF.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
+                tablaPDF.DefaultCell.Padding = 5f;
 
-            PdfPTable tablaPDF = new PdfPTable(columnas);
-
-            tablaPDF.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
-            tablaPDF.DefaultCell.Padding = 5f;
-
-            for (int i = 0; i < columnas; i++)
-            {
-                tablaPDF.AddCell(table.Columns[i].ColumnName);
-            }
-
-            for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; j < columnas; j++)
+                for (int i = 0; i < columnas; i++)
                 {
-                    tablaPDF.AddCell(table.Rows[i][j].ToString());
+                    tablaPDF.AddCell(table.Columns[i].ColumnName);
                 }
+
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        tablaPDF.AddCell(table.Rows[i][j].ToString());
+                    }
+                }
+                
+                decimal total = 0;
+                using (var conexion = GetConnection())
+                {
+                    conexion.Open();
+                    using (var comando = new SqlCommand())
+                    {
+                        comando.Connection = conexion;
+                        comando.CommandText = "SELECT SUM(Precio) AS total FROM Citas WHERE Fecha_HoraCreacion BETWEEN @desde AND @hasta";
+                        comando.CommandType = CommandType.Text;
+                        comando.Parameters.AddWithValue("@desde", desde);
+                        comando.Parameters.AddWithValue("@hasta", hasta);
+
+                        using (SqlDataReader lectura = comando.ExecuteReader())
+                        {
+                            if (lectura.Read())
+                            {
+                                if (!lectura.IsDBNull(0))
+                                {
+                                    double valorTotal = lectura.GetDouble(0);
+                                    total = Convert.ToDecimal(valorTotal);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                documento.Add(tablaPDF);
+                Font fuenteEncabezado = new Font(Font.FontFamily.HELVETICA, 20, Font.BOLD);
+                Paragraph encabezado = new Paragraph("Total vendido en el período " + desde + " hasta: " + hasta + "\nTotal: $" + total, fuenteEncabezado);
+                encabezado.Alignment = Element.ALIGN_CENTER;
+                encabezado.SpacingBefore = 45;
+                documento.Add(encabezado);
+                #endregion
             }
+            else
+            {
+                #region -> NoCitas
+                var table = RetornarTabla(tabla);
+                int columnas = table.Columns.Count;
+                int filas = table.Rows.Count;
+                PdfPTable tablaPDF2 = new PdfPTable(columnas);
 
-            documento.Add(tablaPDF);
+                tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
+                tablaPDF2.DefaultCell.Padding = 5f;
 
+
+                tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
+                tablaPDF2.DefaultCell.Padding = 5f;
+
+                for (int i = 0; i < columnas; i++)
+                {
+                    tablaPDF2.AddCell(table.Columns[i].ColumnName);
+                }
+
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        tablaPDF2.AddCell(table.Rows[i][j].ToString());
+                    }
+                    
+                }
+
+                documento.Add(tablaPDF2);
+                #endregion
+            }
+            int totalPages = escritor.PageNumber;
             documento.Close();
-
+            escritor.Close();
             Process.Start(rutaArchivoPDF);
+        }
+
+        public DataTable RetornarTabla2(string tabla, DateTime hasta, DateTime desde)
+        {
+            DataTable table = new DataTable();
+            using (var conexion = GetConnection())
+            {
+                conexion.Open();
+                using (var comando = new SqlCommand())
+                {
+
+                    comando.Connection = conexion;
+                    comando.CommandText = "SELECT * FROM " + tabla + " WHERE Fecha_HoraCreacion BETWEEN @desde AND @hasta";
+                    comando.CommandType = CommandType.Text;
+
+                    // Agregar parámetros y establecer sus valores
+                    comando.Parameters.AddWithValue("@desde", desde);
+                    comando.Parameters.AddWithValue("@hasta", hasta);
+
+                    SqlDataReader lectura = comando.ExecuteReader();
+                    table.Load(lectura);
+
+                    return table;
+                }
+
+
+            }
         }
 
         public DataTable RetornarTabla(string tabla)
@@ -116,7 +203,13 @@ namespace AccesoDatos
 
             return nombreTablas;
         }
+      
+           
+        
     }
+
+
+
 
     public class NumeradorPagina : PdfPageEventHelper
     {

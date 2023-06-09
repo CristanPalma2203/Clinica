@@ -456,3 +456,8 @@ C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\obj\Debug\GUI_Principal
 C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\obj\Debug\GUI_Principal.pdb
 C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\Guna.UI2.dll
 C:\Users\Billy Mejia\Desktop\Clinica\GUI_Principal\bin\Debug\Guna.UI2.dll
+C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\GUI_Principal\bin\Debug\Microsoft.SqlServer.Types.dll

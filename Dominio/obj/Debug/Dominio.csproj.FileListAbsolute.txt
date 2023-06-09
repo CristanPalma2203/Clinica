@@ -78,3 +78,8 @@ C:\Users\Josue\Desktop\change name\Clinica\Dominio\obj\Debug\Dominio.dll
 C:\Users\Josue\Desktop\change name\Clinica\Dominio\obj\Debug\Dominio.pdb
 C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\Guna.UI2.dll
 C:\Users\Billy Mejia\Desktop\Clinica\Dominio\bin\Debug\Guna.UI2.dll
+C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Josue\Desktop\change name\Clinica\Dominio\bin\Debug\Microsoft.SqlServer.Types.dll

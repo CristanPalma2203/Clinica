@@ -290,7 +290,7 @@ namespace GUI_Principal.Formularios_Acciones
 
 
                     invoice.GeneratePDFInvoice(ruta,opcion); 
-                    //GeneratePDFInvoice(ruta,opcion);
+                  
                 }
             }
             else

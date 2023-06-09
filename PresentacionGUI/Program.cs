@@ -1,4 +1,6 @@
-﻿using GUI_Principal.Formularios_Acciones;
+﻿using GUI_Principal;
+using GUI_Principal.Factura;
+using GUI_Principal.Formularios_Acciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,7 @@ namespace PresentacionGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DatosCitas()); ;//
+            Application.Run(new Reportes()); ;//
         }
     }
 }
