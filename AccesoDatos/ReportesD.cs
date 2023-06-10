@@ -34,7 +34,7 @@ namespace AccesoDatos
 
             // Crear el evento de encabezado
             escritor.PageEvent = new HeaderEvent(titulo, rutaImagen);
-
+    
             documento.Open();
 
             if (tabla == "Citas")
@@ -106,38 +106,7 @@ namespace AccesoDatos
                     #endregion
 
                 }
-                else
-                {
-                    #region -> NoCitas
-                    var table = RetornarTabla(tabla);
-                    int columnas = table.Columns.Count;
-                    int filas = table.Rows.Count;
-                    PdfPTable tablaPDF2 = new PdfPTable(columnas);
-
-                    tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
-                    tablaPDF2.DefaultCell.Padding = 5f;
-
-
-                    tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
-                    tablaPDF2.DefaultCell.Padding = 5f;
-
-                    for (int i = 0; i < columnas; i++)
-                    {
-                        tablaPDF2.AddCell(table.Columns[i].ColumnName);
-                    }
-
-                    for (int i = 0; i < filas; i++)
-                    {
-                        for (int j = 0; j < columnas; j++)
-                        {
-                            tablaPDF2.AddCell(table.Rows[i][j].ToString());
-                        }
-
-                    }
-
-                    documento.Add(tablaPDF2);
-                    #endregion 
-                }
+               
             }
             else if (tabla == "Ventas")
             {
@@ -220,9 +189,43 @@ namespace AccesoDatos
                     #endregion
                 }
             }
+            else
+            {
+                #region -> NoCitas
+                var table = RetornarTabla(tabla);
+                int columnas = table.Columns.Count;
+                int filas = table.Rows.Count;
+                PdfPTable tablaPDF2 = new PdfPTable(columnas);
+
+                tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
+                tablaPDF2.DefaultCell.Padding = 5f;
 
 
-            int totalPages = escritor.PageNumber;
+                tablaPDF2.DefaultCell.HorizontalAlignment = Element.ALIGN_CENTER;
+                tablaPDF2.DefaultCell.Padding = 5f;
+
+                for (int i = 0; i < columnas; i++)
+                {
+                    tablaPDF2.AddCell(table.Columns[i].ColumnName);
+                }
+
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        tablaPDF2.AddCell(table.Rows[i][j].ToString());
+                    }
+
+                }
+
+                documento.Add(tablaPDF2);
+                #endregion
+            }
+
+
+            NumeradorPagina numeradorPagina = new NumeradorPagina(titulo);
+            escritor.PageEvent = numeradorPagina;
+            
             documento.Close();
             escritor.Close();
             Process.Start(rutaArchivoPDF);
@@ -397,15 +400,40 @@ ORDER BY Año, Meses.MesNum";
     public class NumeradorPagina : PdfPageEventHelper
     {
         private string nombre;
-        private float pieAlto;
-        private bool primeraPagina = true;
 
-        public NumeradorPagina(string nombre, float pieAlto)
+        public NumeradorPagina(string nombre)
         {
             this.nombre = nombre;
-            this.pieAlto = pieAlto;
         }
 
-    
+        public override void OnEndPage(PdfWriter writer, Document document)
+        {
+            base.OnEndPage(writer, document);
+
+            // Obtener el número total de páginas
+            int totalPages = writer.PageNumber;
+
+            // Obtener el número de la página actual
+            int currentPage = writer.CurrentPageNumber;
+
+            // Construir el texto de la página
+            string pageText = $"{currentPage} de {totalPages}";
+
+            // Establecer el tamaño y la fuente del texto
+            float fontSize = 10f;
+            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
+            PdfContentByte canvas = writer.DirectContent;
+            canvas.BeginText();
+            canvas.SetFontAndSize(baseFont, fontSize);
+
+            // Calcular la posición x y y del texto
+            float xPosition = document.LeftMargin;
+            float yPosition = document.PageSize.GetBottom(30f) + 10f;
+
+            // Escribir el texto de la página en el pie de página
+            canvas.SetTextMatrix(xPosition, yPosition);
+            canvas.ShowTextAligned(Element.ALIGN_CENTER, pageText, document.PageSize.Width / 2, yPosition, 0);
+            canvas.EndText();
+        }
     }
 }

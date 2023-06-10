@@ -83,27 +83,32 @@ namespace GUI_Principal.Factura
         {
             base.OnEndPage(writer, document);
 
-            // Agregar el número de página en el pie de página
-            pageNumber++;
-            string pageText = "Página " + pageNumber;
-            Rectangle pageSize = document.PageSize;
-            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
-            float fontHeight = 10f;
-            float xPosition = document.LeftMargin;
-            float yPosition = document.BottomMargin - 20;
+            // Obtener el número total de páginas
+            int totalPages = writer.PageNumber;
 
+            // Obtener el número de la página actual
+            int currentPage = writer.CurrentPageNumber;
+
+            // Construir el texto de la página
+            string pageText = $"{currentPage} de {totalPages}";
+
+            // Establecer el tamaño y la fuente del texto
+            float fontSize = 10f;
+            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
             PdfContentByte canvas = writer.DirectContent;
             canvas.BeginText();
-            canvas.SetFontAndSize(baseFont, fontHeight);
+            canvas.SetFontAndSize(baseFont, fontSize);
+
+            // Calcular la posición x y y del texto
+            float xPosition = document.LeftMargin;
+            float yPosition = document.PageSize.GetTop(document.TopMargin) + 10;
+
+            // Escribir el texto de la página en el encabezado
             canvas.SetTextMatrix(xPosition, yPosition);
-            canvas.ShowText(pageText);
+            canvas.ShowTextAligned(Element.ALIGN_CENTER, pageText, document.PageSize.Width / 2, yPosition, 0);
             canvas.EndText();
         }
 
-        public void UpdatePageNumber(int totalPages)
-        {
-            pageNumber = totalPages;
-        }
     }
 
 }
