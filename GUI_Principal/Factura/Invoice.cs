@@ -93,9 +93,7 @@ namespace GUI_Principal.Factura
             Font Infortation = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL); 
             Font Information2 = new Font(Font.FontFamily.HELVETICA, 12, Font.NORMAL);
             Font fuenteDetalles = new Font(Font.FontFamily.HELVETICA, 10, Font.NORMAL);
-            Font fuenteTotal = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD);
 
-     
             // Agregar imagen
             Image imagen = Image.GetInstance(rutaImagen);
             imagen.Alignment = Element.ALIGN_LEFT;
